@@ -1,0 +1,12 @@
+.inscrevase{
+    margin-top: 50px;
+    display: flex;
+    width: 100%;
+}
+.conteudo-final{
+    display: flex;
+}
+.image img{
+    right: 0;
+    width: 50%;
+}
