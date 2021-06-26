@@ -35,3 +35,16 @@
     margin-top: 50px;
     margin-bottom: 5%;
 }
+@media only screen and (min-width:360px) and (max-width: 768px) {
+  .box-recipes{
+      display: flex;
+      flex-direction: column;
+  }
+  .reci1{
+    flex-direction: column;
+}
+.reci2{
+    margin-top: 0;
+    flex-direction: column;
+}
+}

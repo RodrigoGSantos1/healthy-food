@@ -1,6 +1,5 @@
 import React from 'react';
 import "./styles.css";
-import User from '../../assets/user.png'
 export default function CardBlog({img, title, altbox, ft, nameuser, color }){
     return(
         <>

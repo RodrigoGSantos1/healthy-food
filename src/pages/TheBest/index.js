@@ -2,9 +2,9 @@ import React from 'react'
 import ImagePage from '../../assets/bloco_services.svg'
 import './style.css'
 
-export default function page3(){
-    return(
-        <div className="page3">
+export default function TheBest(){
+    return( 
+        <div className="the-best">
             <div className="image-page">
                 <img src={ImagePage} alt="ilustração home" />
             </div>
@@ -21,7 +21,7 @@ export default function page3(){
                    <br/>
                    A small river named Duden flows by their place and<br/>
                    supplies it with the necessary regelialia.</p>
-                   <button className="button-recives">Know More</button>
+                   <button className="button-the-best">Know More</button>
             </div>
         </div>
     );

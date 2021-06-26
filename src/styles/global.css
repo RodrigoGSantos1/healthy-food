@@ -18,6 +18,7 @@
 
 body{
     background: #FFF;
+    overflow-x: hidden;
 }
 
 body, input, textarea, button{
@@ -61,3 +62,4 @@ button:hover{
   ::-webkit-scrollbar-thumb:hover {
     background: #1d164d; 
   }
+

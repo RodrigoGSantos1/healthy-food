@@ -1,4 +1,4 @@
-import React, { useRef, useState } from "react";
+import React, { useRef} from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/swiper.min.css";
 import "swiper/components/pagination/pagination.min.css";
@@ -21,15 +21,18 @@ export default function App() {
     <>
       <Swiper
         ref={swiperRef}
-        slidesPerView={7}
-        centeredSlides={true}
+        slidesPerView={"auto"}//4.7
         navigation={true}
         className="mySwiper"
       >
-        <SwiperSlide><CardBlog img={Blog1} altbox="img box comida" title="Quick-start guide to nuts and seeds" nameuser="Rodrigo Guedes" ft={User} color="red"/></SwiperSlide>
-        <SwiperSlide><CardBlog img={Blog2} altbox="img box comida" title="Nutrition: Tips for Improving Your Health" nameuser="Raul Biscaro" ft={User} color="orange"/></SwiperSlide>
+        <SwiperSlide><CardBlog img={Blog1} altbox="img box comida" title="The top 10 benefits of eating healthy" nameuser="Rodrigo Guedes" ft={User} color="red"/></SwiperSlide>
+        <SwiperSlide><CardBlog img={Blog2} altbox="img box comida" title="The top 10 benefits of eating healthy" nameuser="Raul Biscaro" ft={User} color="orange"/></SwiperSlide>
         <SwiperSlide><CardBlog img={Blog3} altbox="img box comida" title="The top 10 benefits of eating healthy" nameuser="Ricardo Pereira" ft={User} color="blue"/></SwiperSlide>
-        <SwiperSlide><CardBlog img={Blog4} altbox="img box comida" title="What Makes a Healthy Diet?" nameuser="Luiz Gustavo" ft={User} color="purple"/></SwiperSlide>
+        <SwiperSlide><CardBlog img={Blog4} altbox="img box comida" title="The top 10 benefits of eating healthy" nameuser="Luiz Gustavo" ft={User} color="purple"/></SwiperSlide>
+        <SwiperSlide><CardBlog img={Blog1} altbox="img box comida" title="The top 10 benefits of eating healthy" nameuser="Rodrigo Guedes" ft={User} color="red"/></SwiperSlide>
+        <SwiperSlide><CardBlog img={Blog2} altbox="img box comida" title="The top 10 benefits of eating healthy" nameuser="Raul Biscaro" ft={User} color="orange"/></SwiperSlide>
+        <SwiperSlide><CardBlog img={Blog3} altbox="img box comida" title="The top 10 benefits of eating healthy" nameuser="Ricardo Pereira" ft={User} color="blue"/></SwiperSlide>
+        <SwiperSlide><CardBlog img={Blog4} altbox="img box comida" title="The top 10 benefits of eating healthy" nameuser="Luiz Gustavo" ft={User} color="purple"/></SwiperSlide>
       </Swiper>
     </>
   );

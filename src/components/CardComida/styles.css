@@ -3,6 +3,7 @@
     box-shadow: rgb(29 22 77 / 8%) 0px 15px 20px;
     margin-right: 40px;
     width: 550px;
+    cursor: pointer;
 }
 .box:hover {
     box-shadow: rgb(29 22 77 / 50%) 10px 10px 20px 0px;
@@ -33,3 +34,24 @@
     color: white;
     width: 130px;
 }
+@media only screen and (min-width:360px) and (max-width: 768px) {
+    .box{
+        margin-right: 0;
+        margin-bottom: 50px;
+        width: 85%;
+    }
+    .box h1{
+        font-size: 15px;
+    }
+    .button-recives{
+        width: 110px;
+    }
+    .size-recipe{
+        width: 50%;
+    }
+    .box:hover {
+        box-shadow: none;
+        transform: none;
+        transition: none;
+      }
+  }
